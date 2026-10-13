@@ -179,3 +179,16 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# --- Project-specific ---------------------------------------------------------------------
+# Data exports: large, internal, and each person downloads their own
+*.csv
+*.xlsx
+
+# Notebook results
+outputs/
+*.png
+
+# OS clutter
+.DS_Store
+Thumbs.db
